@@ -19,9 +19,11 @@ python metrics.py -m <path to trained model> # Compute error metrics on renderin
 ```
 ### How to view
 
+SIBR_viewers referred to [Reduced 3DGS](https://github.com/graphdeco-inria/reduced-3dgs/tree/main) viewer
+
 run
 
 ```
-cd .SIBR_viewers\install\bin
-.\SIBR_gaussianViewer_app.exe -m <PATH-to-output>
+cd ./SIBR_viewers/install/bin
+./SIBR_gaussianViewer_app.exe -m <PATH-to-output> --ply-type quantised_half
 ```
