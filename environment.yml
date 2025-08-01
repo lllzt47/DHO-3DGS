@@ -1,0 +1,19 @@
+name: DHO-gs
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=12.1
+  - plyfile
+  - python=3.10.16
+  - pip=24.3.1
+  - pytorch=2.1.1+cu121
+  - torchaudio=2.1.1+cu121
+  - torchvision=0.16.1+cu121
+  - tqdm
+  - urllib3=1.26.13
+  - pandas
+  - pip:
+    - submodules/diff-gaussian-rasterization
+    - submodules/simple-knn
