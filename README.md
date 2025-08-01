@@ -6,6 +6,10 @@ Our experiments are done in Ubuntu 22.04.5 LTS, CUDA SDK 12.1, just for referenc
 
 1. Follow the steps in https://github.com/graphdeco-inria/reduced-3dgs/tree/main to build the environment
 
+### How to Dataset
+
+MipNeRF360, Tanks&Temples and Deep Blending can be found at https://github.com/graphdeco-inria/gaussian-splatting
+
 ### How to train
 
 Execute the command of train.sh
