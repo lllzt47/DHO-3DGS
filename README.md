@@ -4,7 +4,7 @@
 
 Our experiments are done in Ubuntu 22.04.5 LTS, CUDA SDK 12.1, just for reference.
 
-1. Follow the steps in https://github.com/graphdeco-inria/gaussian-splatting to build the environment
+1. Follow the steps in https://github.com/graphdeco-inria/reduced-3dgs/tree/main to build the environment
 
 ### How to train
 
