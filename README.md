@@ -22,6 +22,6 @@ python metrics.py -m <path to trained model> # Compute error metrics on renderin
 run
 
 ```
-cd .\viewers\bin
+cd .SIBR_viewers\install\bin
 .\SIBR_gaussianViewer_app.exe -m <PATH-to-output>
 ```
